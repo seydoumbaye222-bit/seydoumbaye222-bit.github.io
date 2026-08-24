@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thomas Pesquet et le gaming en apesanteur : Découverte d’un loisir spatial</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <img src="../images/logo.png" alt="Logo" class="site-logo">
+    <h1>Thomas Pesquet et le gaming en apesanteur : Découverte d’un loisir spatial</h1>
+    <p><a href="../index.html">&larr; Retour à l'accueil</a></p>
+    <button class="theme-toggle" onclick="toggleTheme()">🌙 Mode sombre</button>
+  </header>
+  <main>
+    <article>
+      <div class="article-content">
+        <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=600" alt="Smartphone technologie" style="border-radius: 8px; margin-bottom: 15px; width: 100%;">
+
+        <p>Thomas Pesquet et le gaming en apesanteur fascinent les passionnés de technologie et de jeux vidéo. À bord de l’ISS, l’astronaute français explore comment jouer lorsqu’on flotte dans l’espace, entre entraînement et détente.</p>
+
+      <h2>Thomas Pesquet et le gaming en apesanteur à bord de l’ISS</h2>
+      <p>Dans la station, Thomas Pesquet utilise une console portable adaptée. Les manettes sont fixées pour éviter qu’elles ne flottent. Les jeux s’affichent sur un écran spécial qui compense les variations de lumière.</p>
+
+      <h2>Les jeux vidéo adaptés à l’apesanteur</h2>
+      <p>Les éditeurs créent des titres légers, faciles à contrôler sans gravité. Des simulateurs de vol et des puzzles sont privilégiés car ils demandent peu de mouvements brusques.</p>
+
+      <h2>Impact du gaming sur le bien‑être des astronautes</h2>
+      <p>Jouer aide à réduire le stress et la solitude. Les sessions de jeu créent du lien entre les équipiers et offrent une pause mentale entre les expériences scientifiques.</p>
+
+      <h2>Perspectives futures du gaming en apesanteur</h2>
+      <p>Les prochaines missions envisagent la réalité virtuelle et le cloud gaming. Des projets de compétition inter‑stations pourraient apparaître, ouvrant un nouveau terrain de jeu cosmique.</p>
+
+      <h2>Conclusion</h2>
+      <p>Le gaming en apesanteur, illustré par Thomas Pesquet, montre que le divertissement suit l’homme au-delà de la Terre, combinant technologie et bien‑être dans l’espace.</p>
+
+      <div class="share-buttons">
+        <a href="https://wa.me/?text=Thomas%E2%80%AFPesquet%20et%20le%20gaming%20en%20apesanteur%20%3A%20D%C3%A9couverte%20d%E2%80%99un%20loisir%20spatial%20-%20https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Fthomas-pesquet-et-le-gaming-en-apesanteur-decouverte-dun-loi.html" class="share-whatsapp" target="_blank">WhatsApp</a><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Fthomas-pesquet-et-le-gaming-en-apesanteur-decouverte-dun-loi.html" class="share-facebook" target="_blank">Facebook</a><a href="https://twitter.com/intent/tweet?text=Thomas%E2%80%AFPesquet%20et%20le%20gaming%20en%20apesanteur%20%3A%20D%C3%A9couverte%20d%E2%80%99un%20loisir%20spatial&url=https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Fthomas-pesquet-et-le-gaming-en-apesanteur-decouverte-dun-loi.html" class="share-x" target="_blank">X</a>
+      </div>
+
+      </div>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2026 Mon Site Tech & Gaming</p>
+  </footer>
+  <script>
+    (function() {
+      const saved = localStorage.getItem('theme');
+      if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    })();
+    function toggleTheme() {
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      if (isDark) {
+        document.documentElement.removeAttribute('data-theme');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    }
+  </script>
+</body>
+</html>
