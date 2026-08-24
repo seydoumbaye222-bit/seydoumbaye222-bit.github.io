@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survivre à la canicule en gamer : comment garder son PC frais et rester au top</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <img src="../images/logo.png" alt="Logo" class="site-logo">
+    <h1>Survivre à la canicule en gamer : comment garder son PC frais et rester au top</h1>
+    <p><a href="../index.html">&larr; Retour à l'accueil</a></p>
+    <button class="theme-toggle" onclick="toggleTheme()">🌙 Mode sombre</button>
+  </header>
+  <main>
+    <article>
+      <div class="article-content">
+        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=600" alt="Technologie circuits" style="border-radius: 8px; margin-bottom: 15px; width: 100%;">
+
+        <p>Lorsque les températures grimpent, votre matériel de jeu peut rapidement devenir le maillon faible de vos sessions. Découvrez des astuces simples et efficaces pour éviter la surchauffe, protéger votre PC et garder vos performances au maximum, même pendant les vagues de chaleur les plus intenses.</p>
+
+      <h2>Optimiser la ventilation de votre station de jeu</h2>
+      <p>Placez votre tour ou votre boîtier sur une surface plane et dégagée, loin des murs ou des meubles qui bloquent le flux d’air. Nettoyez régulièrement les filtres et les ventilateurs pour éliminer la poussière, qui agit comme un isolant thermique. Envisagez d’ajouter des ventilateurs supplémentaires en intake à l’avant et en exhaust à l’arrière pour créer un courant d’air continu.</p>
+
+      <h2>Investir dans un refroidissement liquide ou un ventilateur performant</h2>
+      <p>Un système de refroidissement liquide tout‑en‑un (AIO) peut abaisser la température du processeur de 5 à 15 °C par rapport à un refroidisseur à air standard. Si vous préférez rester sur l’air, choisissez des ventilateurs de 120 mm ou 140 mm avec un débit élevé (CFM) et un niveau sonore raisonnable. La combinaison d’un bon dissipateur et de ventilateurs de qualité prolonge la durée de vie des composants et maintient les fréquences de jeu élevées.</p>
+
+      <h2>Réduire la charge thermique grâce aux réglages logiciels</h2>
+      <p>Utilisez les outils du fabricant (MSI Afterburner, AMD Ryzen Master, etc.) pour ajuster légèrement les fréquences et les tensions de votre GPU et CPU pendant les pics de chaleur. Activez le mode « Eco » ou « Power‑saving » dans les paramètres de vos jeux afin de diminuer la consommation énergétique sans sacrifier l’expérience visuelle. Un profil de ventilation intelligent, disponible dans la plupart des BIOS modernes, augmente automatiquement la vitesse des ventilateurs dès que la température dépasse un seuil critique.</p>
+
+      <h2>Créer un environnement de jeu plus frais à la maison</h2>
+      <p>Installez un ventilateur de pièce ou un climatiseur portable près de votre poste de travail pour abaisser la température ambiante. Fermez les stores et utilisez des rideaux réfléchissants afin de limiter l’apport de chaleur solaire. Même une différence de 3 °C dans la pièce peut réduire de 10 % la température interne du boîtier, ce qui se traduit par une meilleure stabilité pendant les longues marathons de jeu.</p>
+
+      <h2>Conclusion</h2>
+      <p>En combinant une bonne circulation d’air, un refroidissement adapté, des réglages logiciels intelligents et un cadre domestique plus frais, vous transformerez la canicule en simple détail technique. Votre PC restera performant, vos parties seront fluides, et vous profiterez pleinement de chaque session de jeu, même sous le soleil le plus accablant.</p>
+
+      <div class="share-buttons">
+        <a href="https://wa.me/?text=Survivre%20%C3%A0%20la%20canicule%20en%20gamer%20%3A%20comment%20garder%20son%20PC%20frais%20et%20rester%20au%20top%20-%20https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Fsurvivre-a-la-canicule-en-gamer-comment-garder-son-pc-frais-.html" class="share-whatsapp" target="_blank">WhatsApp</a><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Fsurvivre-a-la-canicule-en-gamer-comment-garder-son-pc-frais-.html" class="share-facebook" target="_blank">Facebook</a><a href="https://twitter.com/intent/tweet?text=Survivre%20%C3%A0%20la%20canicule%20en%20gamer%20%3A%20comment%20garder%20son%20PC%20frais%20et%20rester%20au%20top&url=https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Fsurvivre-a-la-canicule-en-gamer-comment-garder-son-pc-frais-.html" class="share-x" target="_blank">X</a>
+      </div>
+
+      </div>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2026 Mon Site Tech & Gaming</p>
+  </footer>
+  <script>
+    (function() {
+      const saved = localStorage.getItem('theme');
+      if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    })();
+    function toggleTheme() {
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      if (isDark) {
+        document.documentElement.removeAttribute('data-theme');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    }
+  </script>
+</body>
+</html>
