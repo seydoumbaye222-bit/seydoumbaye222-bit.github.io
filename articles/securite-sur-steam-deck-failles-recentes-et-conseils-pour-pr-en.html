@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Steam Deck Security: Recent Vulnerabilities and Tips to Protect Your Data</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <img src="../images/logo.png" alt="Logo" class="site-logo">
+    <h1>Steam Deck Security: Recent Vulnerabilities and Tips to Protect Your Data</h1>
+    <p><a href="../index.html">&larr; Retour à l'accueil</a></p>
+    <button class="theme-toggle" onclick="toggleTheme()">🌙 Mode sombre</button>
+  </header>
+  <main>
+    <article>
+      <div class="article-content">
+        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=600" alt="Technologie circuits" style="border-radius: 8px; margin-bottom: 15px; width: 100%;">
+
+        <p>Valve's handheld console, the Steam Deck, has won over millions of gamers thanks to the power and flexibility of SteamOS. However, this open Linux-based environment is not immune to vulnerabilities. Recent security flaws affecting the operating system and account management have raised legitimate concerns regarding personal data protection. In this article, we analyze these recent vulnerabilities and present the best practices to effectively secure your portable console on a daily basis.</p>
+
+      <h2>Understanding Recent Vulnerabilities Discovered on SteamOS</h2>
+      <p>Based on Arch Linux, SteamOS offers a level of freedom highly valued by the gaming community, but this openness sometimes comes with security blind spots. Cybersecurity researchers recently highlighted flaws that allow remote code execution via unverified packages or unsecured public Wi-Fi networks. Other vulnerabilities involve the local storage of unencrypted session data, which could allow a third party with physical access to the device to retrieve Steam account credentials. Although Valve generally responds quickly by deploying patches, user awareness remains the primary defense against these intrusions.</p>
+
+      <h2>Enabling Two-Factor Authentication and Securing Your Valve Account</h2>
+      <p>The first line of defense for any Steam Deck owner is properly securing the Steam account itself. Enabling Steam Guard, the two-factor authentication system offered by Valve via its mobile app, is essential to prevent unauthorized logins. Furthermore, it is crucial to set up an access PIN directly on the console to stop anyone from launching games or browsing your data if the device is stolen. Be sure to also use a strong, unique password for your Steam account, combining letters, numbers, and symbols.</p>
+
+      <h2>Adopting Best Practices in Desktop Mode and Avoiding Unverified Sources</h2>
+      <p>One of the Steam Deck's greatest assets is its desktop mode, which allows users to install third-party software via Flatpak or the command line. However, this flexibility requires increased vigilance when downloading unofficial programs or customization scripts. It is strongly recommended to stick to the built-in Discover app store and avoid running bash commands with administrator privileges without fully understanding their contents. Finally, consider using a virtual private network (VPN) when connecting to public Wi-Fi hotspots to encrypt all your network traffic.</p>
+
+      <h2>Keeping the System Updated and Monitoring Permissions</h2>
+      <p>Valve regularly releases software updates for SteamOS that include essential security patches designed to fix flaws discovered by the community. To keep your data protected, it is highly recommended to set updates to automatic and install stable releases as soon as they become available. Also, regularly check the list of devices authorized to log into your Steam account in your privacy settings. These simple yet consistent actions significantly reduce the risk of vulnerability exploits and safeguard your digital privacy.</p>
+
+      <h2>Conclusion</h2>
+      <p>In conclusion, while the Steam Deck delivers an exceptional handheld gaming experience, protecting your personal data requires ongoing attention to emerging threats. By combining the use of Steam Guard, caution when installing third-party software, and prompt system updates, you drastically reduce the risk of cyberattacks. Cybersecurity is an ongoing process, and adopting these simple habits will allow you to fully enjoy your game library with peace of mind.</p>
+
+      </div>
+    <p><a href="securite-sur-steam-deck-failles-recentes-et-conseils-pour-pr.html">🇫🇷 Version française</a></p>
+</article>
+  </main>
+  <footer>
+    <p>&copy; 2026 Mon Site Tech & Gaming</p>
+  </footer>
+  <script>
+    (function() {
+      const saved = localStorage.getItem('theme');
+      if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    })();
+    function toggleTheme() {
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      if (isDark) {
+        document.documentElement.removeAttribute('data-theme');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    }
+  </script>
+</body>
+</html>
