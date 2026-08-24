@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quand les astronautes s’amusent : jeux vidéo et missions spatiales, le cas de Thomas Pesquet</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <img src="../images/logo.png" alt="Logo" class="site-logo">
+    <h1>Quand les astronautes s’amusent : jeux vidéo et missions spatiales, le cas de Thomas Pesquet</h1>
+    <p><a href="../index.html">&larr; Retour à l'accueil</a></p>
+    <button class="theme-toggle" onclick="toggleTheme()">🌙 Mode sombre</button>
+  </header>
+  <main>
+    <article>
+      <div class="article-content">
+        <img src="https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=600" alt="Manette de jeu" style="border-radius: 8px; margin-bottom: 15px; width: 100%;">
+
+        <p>Alors que les voyages spatiaux se modernisent, les jeux vidéo se révèlent être plus qu’un simple loisir pour les astronautes, offrant des outils de simulation, de planification et de détente, à l’image de Thomas Pesquet qui a partagé son expérience avec le public.</p>
+
+      <h2>L’influence des jeux vidéo sur la formation des astronautes</h2>
+      <p>Depuis les premiers simulateurs de vol jusqu’aux mondes ouverts, les jeux vidéo permettent aux astronautes de s’entraîner aux manœuvres complexes, de visualiser les systèmes de bord et d’améliorer la prise de décision en situation critique.</p>
+
+      <h2>Thomas Pesquet et son expérience avec Kerbal Space Program</h2>
+      <p>Lors de son séjour à bord de l’ISS, Thomas Pesquet a joué à Kerbal Space Program, un jeu de construction de vaisseaux spatiaux, pour illustrer les principes de l’orbite et expliquer aux élèves les contraintes de la gravité zéro, montrant ainsi le potentiel éducatif des jeux.</p>
+
+      <h2>Applications concrètes dans la conception de trajectoires</h2>
+      <p>Les algorithmes développés pour les jeux de simulation ont été adaptés aux calculs de trajectoires réelles, permettant d’optimiser les manœuvres de rendez‑vous et de re‑entrée, comme lors de la mission Alpha Magnetics Laboratory où des modèles inspirés du gaming ont réduit les marges d’erreur.</p>
+
+      <h2>Impact sur la culture de la mission et la santé mentale</h2>
+      <p>Au-delà de la technique, les jeux vidéo offrent un moyen de relaxation et de cohésion d’équipe en micro‑gravité, limitant le stress et favorisant le bien‑être, un facteur crucial pour les missions de longue durée comme celle vers Mars.</p>
+
+      <h2>Conclusion</h2>
+      <p>Les jeux vidéo, en combinant simulation réaliste et engagement ludique, deviennent des alliés incontournables pour les agences spatiales, comme le démontre l’exemple de Thomas Pesquet, ouvrant la voie à des missions plus sûres et plus humaines.</p>
+
+      <div class="share-buttons">
+        <a href="https://wa.me/?text=Quand%20les%20astronautes%20s%E2%80%99amusent%20%3A%20jeux%20vid%C3%A9o%20et%20missions%20spatiales%2C%20le%20cas%20de%20Thomas%20Pesquet%20-%20https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Fquand-les-astronautes-samusent-jeux-video-et-missions-spatia.html" class="share-whatsapp" target="_blank">WhatsApp</a><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Fquand-les-astronautes-samusent-jeux-video-et-missions-spatia.html" class="share-facebook" target="_blank">Facebook</a><a href="https://twitter.com/intent/tweet?text=Quand%20les%20astronautes%20s%E2%80%99amusent%20%3A%20jeux%20vid%C3%A9o%20et%20missions%20spatiales%2C%20le%20cas%20de%20Thomas%20Pesquet&url=https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Fquand-les-astronautes-samusent-jeux-video-et-missions-spatia.html" class="share-x" target="_blank">X</a>
+      </div>
+
+      </div>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2026 Mon Site Tech & Gaming</p>
+  </footer>
+  <script>
+    (function() {
+      const saved = localStorage.getItem('theme');
+      if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    })();
+    function toggleTheme() {
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      if (isDark) {
+        document.documentElement.removeAttribute('data-theme');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    }
+  </script>
+</body>
+</html>
