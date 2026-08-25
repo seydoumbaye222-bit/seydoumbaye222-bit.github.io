@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thomas Pesquet et les jeux vidéo spatiaux : quand l’apesanteur inspire le gameplay</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <img src="../images/logo.png" alt="Logo" class="site-logo">
+    <h1>Thomas Pesquet et les jeux vidéo spatiaux : quand l’apesanteur inspire le gameplay</h1>
+    <p><a href="../index.html">&larr; Retour à l'accueil</a></p>
+    <button class="theme-toggle" onclick="toggleTheme()">🌙 Mode sombre</button>
+  </header>
+  <main>
+    <article>
+      <div class="article-content">
+        <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=600" alt="Smartphone technologie" style="border-radius: 8px; margin-bottom: 15px; width: 100%;">
+
+        <p>Thomas Pesquet, astronaute français, a vécu plusieurs missions en apesanteur qui offrent un vécu unique sur la gravité zéro. Les développeurs de jeux vidéo spatiaux s’en emparent pour rendre leurs titres plus crédibles et immersifs, en s’appuyant sur des retours d’expérience concrets et des données techniques issues de la Station spatiale internationale.</p>
+
+      <h2>Conditions d’éligibilité pour intégrer le réalisme spatial</h2>
+      <p>Les studios doivent justifier d’un budget dédié à la recherche scientifique (minimum 5 % du coût total) et d’une collaboration avec une agence spatiale ou un expert reconnu (ex. CNES, ESA). Un prototype fonctionnel doit démontrer la prise en compte de la dynamique d’apesanteur avant d’obtenir le label « Realité spatiale certifiée ». Cette exigence garantit que les mécaniques de vol, de déplacement et d’interaction respectent les contraintes physiques observées par Pesquet.</p>
+
+      <h2>Dates clés des missions de Thomas Pesquet et leur impact</h2>
+      <p>- 2016‑2017 : Mission Proxima (6 mois à bord de l’ISS) – première immersion publique du public via les réseaux sociaux, inspirant le niveau de détail des environnements. - 2021‑2022 : Mission Alpha (6 mois) – mise en avant des effets de la micro‑gravité sur les fluides, exploités dans les jeux de simulation de laboratoire. Ces jalons permettent aux équipes de synchroniser leurs road‑maps de développement avec les périodes de diffusion médiatique, maximisant ainsi la visibilité SEO.</p>
+
+      <h2>Démarches à suivre pour les développeurs</h2>
+      <p>1. Identifier le partenaire scientifique (ex. CNES) et signer un accord de partage de données. 2. Soumettre un dossier de projet incluant budget, planning et objectifs de réalisme. 3. Recevoir le feedback technique (calculs de trajectoire, simulation d’inertie). 4. Intégrer les correctifs dans le moteur de jeu (Unity, Unreal) et valider via des tests utilisateurs ciblés sur la perception d’apesanteur. 5. Faire certifier le produit final par le label officiel avant la sortie commerciale.</p>
+
+      <h2>Modalités de mise en œuvre dans les moteurs de jeu</h2>
+      <p>Les développeurs utilisent des plugins physiques (ex. PhysX, Havok) paramétrés avec les valeurs mesurées par les capteurs de l’ISS (accélération ≈ 0 m/s², décélération lors des manœuvres). Les textures et shaders reproduisent la lumière diffuse caractéristique des hublots de la station. Un guide de style fourni par l’agence décrit les palettes de couleurs, les effets de poussière et les comportements des objets flottants, assurant une cohérence visuelle et technique sur l’ensemble du titre.</p>
+
+      <h2>Conclusion</h2>
+      <p>En intégrant les enseignements tirés de l’expérience de Thomas Pesquet, les créateurs de jeux vidéo spatiaux offrent aux joueurs une immersion plus fidèle à la réalité, tout en respectant des standards de production clairement définis, ce qui renforce la crédibilité du produit et son attractivité publicitaire.</p>
+
+      <div class="share-buttons">
+        <a href="https://wa.me/?text=Thomas%20Pesquet%20et%20les%20jeux%20vid%C3%A9o%20spatiaux%E2%80%AF%3A%20quand%20l%E2%80%99apesanteur%20inspire%20le%20gameplay%20-%20https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Fthomas-pesquet-et-les-jeux-video-spatiaux-quand-lapesanteur-.html" class="share-whatsapp" target="_blank">WhatsApp</a><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Fthomas-pesquet-et-les-jeux-video-spatiaux-quand-lapesanteur-.html" class="share-facebook" target="_blank">Facebook</a><a href="https://twitter.com/intent/tweet?text=Thomas%20Pesquet%20et%20les%20jeux%20vid%C3%A9o%20spatiaux%E2%80%AF%3A%20quand%20l%E2%80%99apesanteur%20inspire%20le%20gameplay&url=https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Fthomas-pesquet-et-les-jeux-video-spatiaux-quand-lapesanteur-.html" class="share-x" target="_blank">X</a>
+      </div>
+
+      </div>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2026 Mon Site Tech & Gaming</p>
+  </footer>
+  <script>
+    (function() {
+      const saved = localStorage.getItem('theme');
+      if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    })();
+    function toggleTheme() {
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      if (isDark) {
+        document.documentElement.removeAttribute('data-theme');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    }
+  </script>
+</body>
+</html>
