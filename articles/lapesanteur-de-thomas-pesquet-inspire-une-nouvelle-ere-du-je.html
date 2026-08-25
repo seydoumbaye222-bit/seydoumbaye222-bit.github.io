@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>L'apesanteur de Thomas Pesquet inspire une nouvelle ère du jeu vidéo</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <img src="../images/logo.png" alt="Logo" class="site-logo">
+    <h1>L'apesanteur de Thomas Pesquet inspire une nouvelle ère du jeu vidéo</h1>
+    <p><a href="../index.html">&larr; Retour à l'accueil</a></p>
+    <button class="theme-toggle" onclick="toggleTheme()">🌙 Mode sombre</button>
+  </header>
+  <main>
+    <article>
+      <div class="article-content">
+        <img src="https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=600" alt="Manette de jeu" style="border-radius: 8px; margin-bottom: 15px; width: 100%;">
+
+        <p>Thomas Pesquet, astronaute français, a passé plusieurs mois en apesanteur à bord de la Station spatiale internationale. Son expérience, riche en observations sur la perception du mouvement et la coordination motrice, suscite aujourd’hui l’intérêt des concepteurs de jeux vidéo, qui cherchent à reproduire ou à s’inspirer de ces conditions uniques.</p>
+
+      <h2>Physiologie de l'apesanteur</h2>
+      <p>En microgravité, le corps humain subit une redistribution des fluides, une perte de masse musculaire et des modifications de l’orientation spatiale. Ces changements influencent la perception du temps, la réactivité et la capacité à gérer plusieurs axes de déplacement simultanément, des paramètres que les développeurs tentent d’intégrer dans les mécaniques de jeu.</p>
+
+      <h2>De l'ISS aux manettes : transfert de compétences</h2>
+      <p>Pesquet a décrit comment il a dû réapprendre des gestes simples, comme attraper un objet ou se déplacer, en l'absence de poids. Les studios de simulation spatiale utilisent ces retours pour affiner leurs algorithmes de physique, offrant aux joueurs une sensation plus crédible d'apesanteur.</p>
+
+      <h2>Design inspiré par la gravité zéro</h2>
+      <p>Des titres comme “Lone Echo” ou “Star Citizen” ont déjà intégré des environnements où la gravité est modulable. L’observation de Pesquet sur les déplacements en poussant légèrement le corps a conduit à des contrôles plus fluides, basés sur la poussée et la rotation plutôt que sur des sauts traditionnels.</p>
+
+      <h2>Immersion et bien‑être du joueur</h2>
+      <p>Les études menées après les missions de Pesquet montrent que l’apesanteur peut réduire le stress lié aux contraintes physiques. Certains jeux de réalité virtuelle s’appuient sur ces effets pour proposer des sessions plus relaxantes, tout en stimulant la proprioception et la coordination.</p>
+
+      <h2>Conclusion</h2>
+      <p>En résumé, l’expérience de Thomas Pesquet en apesanteur ouvre de nouvelles perspectives pour la conception de jeux vidéo, tant sur le plan technique que sensoriel. Les développeurs qui intègrent ces leçons pourront offrir aux joueurs des expériences plus immersives, réalistes et bénéfiques pour la santé.</p>
+
+      <div class="share-buttons">
+        <a href="https://wa.me/?text=L'apesanteur%20de%20Thomas%20Pesquet%20inspire%20une%20nouvelle%20%C3%A8re%20du%20jeu%20vid%C3%A9o%20-%20https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Flapesanteur-de-thomas-pesquet-inspire-une-nouvelle-ere-du-je.html" class="share-whatsapp" target="_blank">WhatsApp</a><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Flapesanteur-de-thomas-pesquet-inspire-une-nouvelle-ere-du-je.html" class="share-facebook" target="_blank">Facebook</a><a href="https://twitter.com/intent/tweet?text=L'apesanteur%20de%20Thomas%20Pesquet%20inspire%20une%20nouvelle%20%C3%A8re%20du%20jeu%20vid%C3%A9o&url=https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Flapesanteur-de-thomas-pesquet-inspire-une-nouvelle-ere-du-je.html" class="share-x" target="_blank">X</a>
+      </div>
+
+      </div>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2026 Mon Site Tech & Gaming</p>
+  </footer>
+  <script>
+    (function() {
+      const saved = localStorage.getItem('theme');
+      if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    })();
+    function toggleTheme() {
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      if (isDark) {
+        document.documentElement.removeAttribute('data-theme');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    }
+  </script>
+</body>
+</html>
