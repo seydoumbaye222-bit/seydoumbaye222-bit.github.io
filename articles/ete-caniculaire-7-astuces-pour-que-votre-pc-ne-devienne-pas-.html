@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Été caniculaire : 7 astuces pour que votre PC ne devienne pas un radiateur</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <img src="../images/logo.png" alt="Logo" class="site-logo">
+    <h1>Été caniculaire : 7 astuces pour que votre PC ne devienne pas un radiateur</h1>
+    <p><a href="../index.html">&larr; Retour à l'accueil</a></p>
+    <button class="theme-toggle" onclick="toggleTheme()">🌙 Mode sombre</button>
+  </header>
+  <main>
+    <article>
+      <div class="article-content">
+        <img src="https://images.unsplash.com/photo-1580327344181-c1163234e5a0?w=600" alt="Jeu open world" style="border-radius: 8px; margin-bottom: 15px; width: 100%;">
+
+        <p>L’été arrive et les températures grimpent, ce qui transforme rapidement votre PC en four. Entre la chaleur ambiante et le travail intensif des composants, il est crucial d’adopter des mesures préventives pour éviter les surchauffes, préserver les performances et prolonger la durée de vie de votre matériel.</p>
+
+      <h2>Vérifier la ventilation du boîtier</h2>
+      <p>Assurez‑vous que les grilles d’aération ne sont pas obstruées par la poussière ou des objets. Nettoyez régulièrement les filtres et placez le boîtier dans un espace dégagé, loin des murs ou du soleil direct, afin de garantir un apport d’air frais.</p>
+
+      <h2>Optimiser le flux d’air interne</h2>
+      <p>Installez les ventilateurs en configuration « intake » à l’avant et « exhaust » à l’arrière ou en haut du boîtier. Un débit d’air équilibré évite les poches de chaleur. Pensez à orienter les câbles pour ne pas entraver le passage de l’air.</p>
+
+      <h2>Utiliser un refroidisseur externe ou un pad refroidissant</h2>
+      <p>Pour les ordinateurs portables, un pad à ventiraux ou à liquide peut abaisser la température de plusieurs degrés. Sur un PC de bureau, un ventilateur de table dirigé vers le boîtier ou un système de refroidissement liquide complet constitue une solution supplémentaire efficace.</p>
+
+      <h2>Adapter les paramètres de performance</h2>
+      <p>Réduisez légèrement les fréquences du processeur ou du GPU via les profils « Eco » ou « Power‑Saving » pendant les pics de chaleur. Activez la fonction de limitation de la température (Thermal Throttling) dans le BIOS/UEFI pour que le système se protège automatiquement.</p>
+
+      <h2>Entretenir régulièrement le système de refroidissement</h2>
+      <p>Changez la pâte thermique du CPU tous les 2‑3 ans, surtout si vous constatez une hausse de température. Nettoyez les ailettes du radiateur et les ventilateurs avec de l’air comprimé. Un entretien régulier assure un rendement maximal du système de refroidissement.</p>
+
+      <h2>Conclusion</h2>
+      <p>En suivant ces cinq mesures, vous transformerez votre setup en un allié résistant à la canicule, évitant les surchauffes, les baisses de performance et les pannes prématurées. Un PC bien refroidi reste efficace, silencieux et durable tout au long de l’été.</p>
+
+      <div class="share-buttons">
+        <a href="https://wa.me/?text=%C3%89t%C3%A9%20caniculaire%20%3A%207%20astuces%20pour%20que%20votre%20PC%20ne%20devienne%20pas%20un%20radiateur%20-%20https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Fete-caniculaire-7-astuces-pour-que-votre-pc-ne-devienne-pas-.html" class="share-whatsapp" target="_blank">WhatsApp</a><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Fete-caniculaire-7-astuces-pour-que-votre-pc-ne-devienne-pas-.html" class="share-facebook" target="_blank">Facebook</a><a href="https://twitter.com/intent/tweet?text=%C3%89t%C3%A9%20caniculaire%20%3A%207%20astuces%20pour%20que%20votre%20PC%20ne%20devienne%20pas%20un%20radiateur&url=https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Fete-caniculaire-7-astuces-pour-que-votre-pc-ne-devienne-pas-.html" class="share-x" target="_blank">X</a>
+      </div>
+
+      </div>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2026 Mon Site Tech & Gaming</p>
+  </footer>
+  <script>
+    (function() {
+      const saved = localStorage.getItem('theme');
+      if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    })();
+    function toggleTheme() {
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      if (isDark) {
+        document.documentElement.removeAttribute('data-theme');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    }
+  </script>
+</body>
+</html>
