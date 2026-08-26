@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quand les jeux vidéo rencontrent l’espace : l’anecdote de Thomas Pesquet et le basket en apesanteur</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <img src="../images/logo.png" alt="Logo" class="site-logo">
+    <h1>Quand les jeux vidéo rencontrent l’espace : l’anecdote de Thomas Pesquet et le basket en apesanteur</h1>
+    <p><a href="../index.html">&larr; Retour à l'accueil</a></p>
+    <button class="theme-toggle" onclick="toggleTheme()">🌙 Mode sombre</button>
+  </header>
+  <main>
+    <article>
+      <div class="article-content">
+        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=600" alt="Technologie circuits" style="border-radius: 8px; margin-bottom: 15px; width: 100%;">
+
+        <p>L’alliance entre le gaming et l’exploration spatiale a récemment pris une tournure inattendue grâce à l’astronaute Thomas Pesquet, qui a organisé un match de basket improvisé en apesanteur, inspirant ainsi les développeurs à imaginer de nouveaux univers virtuels.</p>
+
+      <h2>Missions proposées : créer des expériences ludiques en gravité zéro</h2>
+      <p>Concevoir, développer et tester des mécaniques de jeu reproduisant les lois de la physique en microgravité, intégrer des scénarios inspirés de l’anecdote du basket en orbite, et collaborer avec des experts spatiaux pour garantir authenticité et immersion.</p>
+
+      <h2>Profil recherché : passion pour le gaming et la conquête spatiale</h2>
+      <p>Vous êtes passionné·e par les jeux vidéo et fasciné·e par l’exploration spatiale, vous suivez l’actualité des missions astronautiques et vous avez envie de transformer ces moments en expériences interactives.</p>
+
+      <h2>Compétences clés : programmation, physique réaliste, storytelling</h2>
+      <p>Maîtrise d’un moteur 3D (Unity ou Unreal), connaissance des simulations physiques (rigidité, forces, frottements en apesanteur), capacité à écrire des scénarios captivants qui mêlent sport, science et aventure.</p>
+
+      <h2>Conseils pratiques pour candidater : portfolio, networking, formation</h2>
+      <p>Mettez en avant des projets similaires (simulation de gravité, sport futuriste), participez à des hackathons spatiaux, obtenez des certifications en réalité virtuelle ou en ingénierie aérospatiale, et contactez les studios déjà engagés dans des partenariats NASA/ESA.</p>
+
+      <h2>Conclusion</h2>
+      <p>En s’inspirant du match de basket de Thomas Pesquet, les créateurs peuvent repousser les limites du jeu vidéo, offrir des expériences inédites et contribuer à populariser la recherche spatiale auprès d’un large public.</p>
+
+      <div class="share-buttons">
+        <a href="https://wa.me/?text=Quand%20les%20jeux%20vid%C3%A9o%20rencontrent%20l%E2%80%99espace%20%3A%20l%E2%80%99anecdote%20de%20Thomas%20Pesquet%20et%20le%20basket%20en%20apesanteur%20-%20https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Fquand-les-jeux-video-rencontrent-lespace-lanecdote-de-thomas.html" class="share-whatsapp" target="_blank">WhatsApp</a><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Fquand-les-jeux-video-rencontrent-lespace-lanecdote-de-thomas.html" class="share-facebook" target="_blank">Facebook</a><a href="https://twitter.com/intent/tweet?text=Quand%20les%20jeux%20vid%C3%A9o%20rencontrent%20l%E2%80%99espace%20%3A%20l%E2%80%99anecdote%20de%20Thomas%20Pesquet%20et%20le%20basket%20en%20apesanteur&url=https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Fquand-les-jeux-video-rencontrent-lespace-lanecdote-de-thomas.html" class="share-x" target="_blank">X</a>
+      </div>
+
+      </div>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2026 Mon Site Tech & Gaming</p>
+  </footer>
+  <script>
+    (function() {
+      const saved = localStorage.getItem('theme');
+      if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    })();
+    function toggleTheme() {
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      if (isDark) {
+        document.documentElement.removeAttribute('data-theme');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    }
+  </script>
+</body>
+</html>
