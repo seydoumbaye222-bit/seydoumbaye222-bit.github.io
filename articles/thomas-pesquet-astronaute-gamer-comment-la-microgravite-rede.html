@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thomas Pesquet, astronaute gamer : comment la microgravité redéfinit la culture du jeu vidéo</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <img src="../images/logo.png" alt="Logo" class="site-logo">
+    <h1>Thomas Pesquet, astronaute gamer : comment la microgravité redéfinit la culture du jeu vidéo</h1>
+    <p><a href="../index.html">&larr; Retour à l'accueil</a></p>
+    <button class="theme-toggle" onclick="toggleTheme()">🌙 Mode sombre</button>
+  </header>
+  <main>
+    <article>
+      <div class="article-content">
+        <img src="https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=600" alt="Manette de jeu" style="border-radius: 8px; margin-bottom: 15px; width: 100%;">
+
+        <p>Depuis son premier vol à bord de la Station spatiale internationale, Thomas Pesquet a démontré que la passion du jeu vidéo peut transcender les frontières de la gravité. En diffusant en direct ses parties de jeux en apesanteur, il a non seulement offert un spectacle inédit aux téléspectateurs, mais a également déclenché une réflexion profonde sur l’adaptation des expériences ludiques aux environnements extrêmes.</p>
+
+      <h2>Le contexte : un astronaute qui joue en orbite</h2>
+      <p>Thomas Pesquet, ingénieur aéronautique et commandant d’équipage, a profité de ses missions (notamment la mission Alpha 2 en 2021) pour jouer à des titres populaires comme „Star Wars Jedi: Fallen Order“ et „Minecraft“. Cette initiative a été rendue possible grâce à la connexion internet de la station, permettant un streaming en temps réel vers la Terre, et a rapidement attiré l’attention des médias et des communautés de joueurs.</p>
+
+      <h2>Les contraintes techniques du jeu en apesanteur</h2>
+      <p>Le micro‑gravité impose des contraintes inédites : l’absence de poids modifie la perception des contrôles, les retours haptiques sont limités, et les appareils doivent résister aux variations de température et aux radiations. Les astronautes utilisent des manettes fixes à leurs poignets et des écrans ajustés pour éviter les flottements incontrôlés, tandis que le logiciel doit compenser les latences de communication qui peuvent atteindre plusieurs centaines de millisecondes.</p>
+
+      <h2>L’impact médiatique et la popularisation du gaming spatial</h2>
+      <p>La diffusion des sessions de jeu de Pesquet a généré des millions de vues, renforçant le lien entre la communauté scientifique et les gamers. Les réseaux sociaux ont relayé ces moments comme un symbole de la démocratisation du spatial, incitant d’autres agences à envisager le jeu comme un outil de formation, de détente et de sensibilisation du public.</p>
+
+      <h2>Leçons pour les développeurs : concevoir pour des environnements extrêmes</h2>
+      <p>Pour les développeurs, l’expérience de Pesquet constitue un laboratoire vivant. Concevoir des jeux capables de fonctionner en apesanteur pousse à repenser les mécaniques de navigation, les interfaces adaptatives et la robustesse du code face à des conditions extrêmes. Ces enseignements peuvent ensuite être réinjectés dans les jeux destinés à la réalité virtuelle ou à des environnements à mobilité réduite sur Terre.</p>
+
+      <h2>Conclusion</h2>
+      <p>En définitive, Thomas Pesquet incarne le pont entre exploration spatiale et culture gaming, montrant que le jeu vidéo peut s’adapter à des environnements hors du commun et inspirer tant les scientifiques que les créateurs. Son influence ouvre la voie à une nouvelle ère où la ludicité devient un vecteur d’innovation pour les missions futures.</p>
+
+      <div class="share-buttons">
+        <a href="https://wa.me/?text=Thomas%20Pesquet%2C%20astronaute%20gamer%20%3A%20comment%20la%20microgravit%C3%A9%20red%C3%A9finit%20la%20culture%20du%20jeu%20vid%C3%A9o%20-%20https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Fthomas-pesquet-astronaute-gamer-comment-la-microgravite-rede.html" class="share-whatsapp" target="_blank">WhatsApp</a><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Fthomas-pesquet-astronaute-gamer-comment-la-microgravite-rede.html" class="share-facebook" target="_blank">Facebook</a><a href="https://twitter.com/intent/tweet?text=Thomas%20Pesquet%2C%20astronaute%20gamer%20%3A%20comment%20la%20microgravit%C3%A9%20red%C3%A9finit%20la%20culture%20du%20jeu%20vid%C3%A9o&url=https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Fthomas-pesquet-astronaute-gamer-comment-la-microgravite-rede.html" class="share-x" target="_blank">X</a>
+      </div>
+
+      </div>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2026 Mon Site Tech & Gaming</p>
+  </footer>
+  <script>
+    (function() {
+      const saved = localStorage.getItem('theme');
+      if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    })();
+    function toggleTheme() {
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      if (isDark) {
+        document.documentElement.removeAttribute('data-theme');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    }
+  </script>
+</body>
+</html>
