@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Canicule et gaming : comment garder son PC au frais cet été</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <img src="../images/logo.png" alt="Logo" class="site-logo">
+    <h1>Canicule et gaming : comment garder son PC au frais cet été</h1>
+    <p><a href="../index.html">&larr; Retour à l'accueil</a></p>
+    <button class="theme-toggle" onclick="toggleTheme()">🌙 Mode sombre</button>
+  </header>
+  <main>
+    <article>
+      <div class="article-content">
+        <img src="https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=600" alt="Manette de jeu" style="border-radius: 8px; margin-bottom: 15px; width: 100%;">
+
+        <p>Avec les températures estivales qui grimpent, les joueurs voient leurs performances et leur confort menacés par la surchauffe des machines ; cet article propose des solutions concrètes pour maintenir un PC au frais et garantir des sessions de jeu agréables malgré la canicule.</p>
+
+      <h2>Surveiller la température ambiante</h2>
+      <p>La première étape consiste à contrôler la température de la pièce ; un thermostat ou une simple sonde permet de garder le lieu de jeu en dessous de 24 °C, condition idéale pour éviter que le processeur ne dépasse ses seuils de sécurité.</p>
+
+      <h2>Optimiser le refroidissement du PC</h2>
+      <p>Vérifier le bon fonctionnement des ventilateurs, nettoyer les filtres à poussière et appliquer une pâte thermique de qualité sont des gestes essentiels ; l’ajout d’un ventilateur supplémentaire ou le passage à un refroidissement liquide peut réduire la température du CPU de 10 à 15 °C.</p>
+
+      <h2>Choisir les bons accessoires</h2>
+      <p>Utiliser un support ventilé pour le portable, placer le boîtier sur un tapis isolant et éviter les surfaces réfléchissantes qui amplifient la chaleur aide à dissiper la chaleur ; les tapis de souris en aluminium ou les repose-poignets en gel peuvent également contribuer à un environnement plus frais.</p>
+
+      <h2>Adapter son mode de jeu</h2>
+      <p>Réduire les paramètres graphiques, désactiver le ray tracing ou baisser la fréquence d’affichage diminue la charge du GPU, limitant ainsi la production de chaleur ; planifier des pauses régulières de 10 minutes toutes les heures permet aux composants de se refroidir naturellement.</p>
+
+      <h2>Conclusion</h2>
+      <p>En combinant surveillance de l’environnement, entretien du matériel, choix d’accessoires adaptés et ajustements de paramètres, les joueurs peuvent contrer les effets de la canicule et profiter pleinement de leurs parties sans risque de surchauffe.</p>
+
+      <div class="share-buttons">
+        <a href="https://wa.me/?text=Canicule%20et%20gaming%20%3A%20comment%20garder%20son%20PC%20au%20frais%20cet%20%C3%A9t%C3%A9%20-%20https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Fcanicule-et-gaming-comment-garder-son-pc-au-frais-cet-ete.html" class="share-whatsapp" target="_blank">WhatsApp</a><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Fcanicule-et-gaming-comment-garder-son-pc-au-frais-cet-ete.html" class="share-facebook" target="_blank">Facebook</a><a href="https://twitter.com/intent/tweet?text=Canicule%20et%20gaming%20%3A%20comment%20garder%20son%20PC%20au%20frais%20cet%20%C3%A9t%C3%A9&url=https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Fcanicule-et-gaming-comment-garder-son-pc-au-frais-cet-ete.html" class="share-x" target="_blank">X</a>
+      </div>
+
+      </div>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2026 Mon Site Tech & Gaming</p>
+  </footer>
+  <script>
+    (function() {
+      const saved = localStorage.getItem('theme');
+      if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    })();
+    function toggleTheme() {
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      if (isDark) {
+        document.documentElement.removeAttribute('data-theme');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    }
+  </script>
+</body>
+</html>

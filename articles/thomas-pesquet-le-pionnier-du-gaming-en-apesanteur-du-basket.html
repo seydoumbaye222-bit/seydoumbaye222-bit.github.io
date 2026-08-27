@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thomas Pesquet : le pionnier du gaming en apesanteur, du basket aux consoles spatiales</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <img src="../images/logo.png" alt="Logo" class="site-logo">
+    <h1>Thomas Pesquet : le pionnier du gaming en apesanteur, du basket aux consoles spatiales</h1>
+    <p><a href="../index.html">&larr; Retour à l'accueil</a></p>
+    <button class="theme-toggle" onclick="toggleTheme()">🌙 Mode sombre</button>
+  </header>
+  <main>
+    <article>
+      <div class="article-content">
+        <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600" alt="Intelligence artificielle" style="border-radius: 8px; margin-bottom: 15px; width: 100%;">
+
+        <p>Astronaute français devenu figure emblématique du jeu vidéo dans l’espace, Thomas Pesquet a su transformer ses pauses basket en véritables sessions de gaming, offrant aux passionnés une nouvelle dimension ludique en microgravité.</p>
+
+      <h2>Du terrain de basket à la Station spatiale</h2>
+      <p>Avant de revêtir la combinaison d’astronaute, Thomas Pesquet était un fervent adepte du basketball, sport qui l’a aidé à maintenir sa condition physique et sa coordination. En orbite, il a repris cette habitude en adaptant les balles et les filets à l’apesanteur, créant ainsi des exercices ludiques qui préparent les équipiers aux mouvements imprévisibles du cosmos.</p>
+
+      <h2>Les premières parties vidéo dans l’ISS</h2>
+      <p>Lors de sa deuxième mission (2021‑2022), Pesquet a installé une console portable à bord de l’ISS et a testé plusieurs titres, dont un jeu de puzzle et un simulateur de vol. Ces sessions ont démontré que les manettes fonctionnent parfaitement en microgravité et que les graphismes restent fluides, même dans un environnement où les ondes sont légèrement différentes.</p>
+
+      <h2>L’apesanteur comme nouveau niveau de jeu</h2>
+      <p>La gravité quasi‑nulle modifie la physique des jeux : les sauts sont plus hauts, les projectiles suivent des trajectoires elliptiques et les effets sonores se propagent différemment. Pour les développeurs, cela ouvre la porte à des mécaniques inédites, tandis que les joueurs bénéficient d’une immersion incomparable, transformant chaque partie en une expérience unique.</p>
+
+      <h2>Impact commercial et éducatif</h2>
+      <p>Les vidéos de Pesquet jouant en orbite ont généré des millions de vues, attirant l’attention des marques et des éditeurs de jeux. Cette visibilité se traduit en revenus publicitaires pour les sites spécialisés et sert de vitrine éducative, montrant aux jeunes que la science et le divertissement peuvent coexister et inspirer les carrières STEM.</p>
+
+      <h2>Conclusion</h2>
+      <p>En combinant sport, science et divertissement, Thomas Pesquet a non seulement prouvé que le gaming fonctionne en apesanteur, mais il a aussi créé un pont entre l’univers des astronautes et celui des gamers, ouvrant la voie à de futures expériences ludiques au-delà de la Terre.</p>
+
+      <div class="share-buttons">
+        <a href="https://wa.me/?text=Thomas%20Pesquet%20%3A%20le%20pionnier%20du%20gaming%20en%20apesanteur%2C%20du%20basket%20aux%20consoles%20spatiales%20-%20https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Fthomas-pesquet-le-pionnier-du-gaming-en-apesanteur-du-basket.html" class="share-whatsapp" target="_blank">WhatsApp</a><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Fthomas-pesquet-le-pionnier-du-gaming-en-apesanteur-du-basket.html" class="share-facebook" target="_blank">Facebook</a><a href="https://twitter.com/intent/tweet?text=Thomas%20Pesquet%20%3A%20le%20pionnier%20du%20gaming%20en%20apesanteur%2C%20du%20basket%20aux%20consoles%20spatiales&url=https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Fthomas-pesquet-le-pionnier-du-gaming-en-apesanteur-du-basket.html" class="share-x" target="_blank">X</a>
+      </div>
+
+      </div>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2026 Mon Site Tech & Gaming</p>
+  </footer>
+  <script>
+    (function() {
+      const saved = localStorage.getItem('theme');
+      if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    })();
+    function toggleTheme() {
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      if (isDark) {
+        document.documentElement.removeAttribute('data-theme');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    }
+  </script>
+</body>
+</html>

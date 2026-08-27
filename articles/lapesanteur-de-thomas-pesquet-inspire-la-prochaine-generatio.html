@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>L'apesanteur de Thomas Pesquet inspire la prochaine génération de jeux vidéo</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <img src="../images/logo.png" alt="Logo" class="site-logo">
+    <h1>L'apesanteur de Thomas Pesquet inspire la prochaine génération de jeux vidéo</h1>
+    <p><a href="../index.html">&larr; Retour à l'accueil</a></p>
+    <button class="theme-toggle" onclick="toggleTheme()">🌙 Mode sombre</button>
+  </header>
+  <main>
+    <article>
+      <div class="article-content">
+        <img src="https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=600" alt="Manette de jeu" style="border-radius: 8px; margin-bottom: 15px; width: 100%;">
+
+        <p>Thomas Pesquet, astronaute français, a partagé plusieurs épisodes de son séjour à bord de la Station spatiale internationale où l'apesanteur devient quotidien. Ses témoignages récents offrent aux développeurs de jeux vidéo de nouvelles références pour créer des expériences immersives et scientifiquement crédibles.</p>
+
+      <h2>Le vécu de Thomas Pesquet en microgravité</h2>
+      <p>Durant ses missions, Pesquet décrit la sensation de flotter comme une perte de repères corporels, avec des mouvements fluides mais exigeants. Il a détaillé l’impact sur la coordination, la perception du temps et les contraintes physiologiques, informations précieuses pour reproduire une sensation d'apesanteur réaliste dans un jeu.</p>
+
+      <h2>Transfert des sensations d'apesanteur aux mécaniques de jeu</h2>
+      <p>Les studios utilisent les récits de Pesquet pour concevoir des systèmes de déplacement où la poussée et l’inertie remplacent la friction terrestre. Les contrôles sont repensés afin que les joueurs ressentent la lenteur des rotations et la nécessité de planifier chaque impulsion, reproduisant ainsi la physique du vol en microgravité.</p>
+
+      <h2>Influence sur le design visuel et narratif</h2>
+      <p>Les descriptions d’un horizon sans ligne d’horizon et la lumière diffuse à bord de la station inspirent des environnements visuels où la gravité n’est plus un repère. Sur le plan narratif, les jeux intègrent des scénarios basés sur la coopération internationale et les défis de la vie en orbite, renforçant la crédibilité de leurs histoires.</p>
+
+      <h2>Défis techniques et opportunités commerciales</h2>
+      <p>Reproduire l'apesanteur nécessite des moteurs physiques avancés et des animations capturées en conditions de microgravité, ce qui augmente les coûts de production. Cependant, la nouveauté attire les joueurs et les annonceurs, offrant aux plateformes monétisées par AdSense de meilleurs taux de rétention et de clics.</p>
+
+      <h2>Conclusion</h2>
+      <p>En s’appuyant sur les observations précises de Thomas Pesquet, les développeurs créent des jeux qui repoussent les limites de la simulation spatiale, mêlant authenticité scientifique et gameplay novateur, et ouvrent de nouvelles perspectives pour l’industrie du jeu vidéo.</p>
+
+      <div class="share-buttons">
+        <a href="https://wa.me/?text=L'apesanteur%20de%20Thomas%20Pesquet%20inspire%20la%20prochaine%20g%C3%A9n%C3%A9ration%20de%20jeux%20vid%C3%A9o%20-%20https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Flapesanteur-de-thomas-pesquet-inspire-la-prochaine-generatio.html" class="share-whatsapp" target="_blank">WhatsApp</a><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Flapesanteur-de-thomas-pesquet-inspire-la-prochaine-generatio.html" class="share-facebook" target="_blank">Facebook</a><a href="https://twitter.com/intent/tweet?text=L'apesanteur%20de%20Thomas%20Pesquet%20inspire%20la%20prochaine%20g%C3%A9n%C3%A9ration%20de%20jeux%20vid%C3%A9o&url=https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Flapesanteur-de-thomas-pesquet-inspire-la-prochaine-generatio.html" class="share-x" target="_blank">X</a>
+      </div>
+
+      </div>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2026 Mon Site Tech & Gaming</p>
+  </footer>
+  <script>
+    (function() {
+      const saved = localStorage.getItem('theme');
+      if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    })();
+    function toggleTheme() {
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      if (isDark) {
+        document.documentElement.removeAttribute('data-theme');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    }
+  </script>
+</body>
+</html>

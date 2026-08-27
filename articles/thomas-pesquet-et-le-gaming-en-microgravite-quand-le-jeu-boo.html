@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thomas Pesquet et le gaming en microgravité : quand le jeu booste la vie à bord</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <img src="../images/logo.png" alt="Logo" class="site-logo">
+    <h1>Thomas Pesquet et le gaming en microgravité : quand le jeu booste la vie à bord</h1>
+    <p><a href="../index.html">&larr; Retour à l'accueil</a></p>
+    <button class="theme-toggle" onclick="toggleTheme()">🌙 Mode sombre</button>
+  </header>
+  <main>
+    <article>
+      <div class="article-content">
+        <img src="https://images.unsplash.com/photo-1580327344181-c1163234e5a0?w=600" alt="Jeu open world" style="border-radius: 8px; margin-bottom: 15px; width: 100%;">
+
+        <p>Depuis son premier vol à bord de l’ISS, Thomas Pesquet a découvert que le gaming n’est pas seulement un loisir, mais un véritable allié pour rester mentalement alerte, gérer le stress et renforcer la cohésion d’équipage, même en apesanteur.</p>
+
+      <h2>Le gaming, un outil de bien‑être en orbite</h2>
+      <p>Les sessions de jeu permettent à l’astronaute de se détendre après de longues expériences scientifiques. En stimulant les zones cérébrales liées au plaisir et à la concentration, le gaming aide à lutter contre l’isolement et la fatigue psychologique, deux défis majeurs des missions de longue durée.</p>
+
+      <h2>Comment la microgravité modifie l’expérience de jeu</h2>
+      <p>En microgravité, les gestes sont différents : la manette flotte légèrement, les mouvements du corps sont plus fluides et le temps de réaction peut varier. Les développeurs adaptent certains titres avec des contrôles sensibles aux mouvements, offrant ainsi une immersion unique que l’on ne retrouve pas sur Terre.</p>
+
+      <h2>Les jeux préférés de l’astronaute</h2>
+      <p>Thomas Pesquet a déclaré aimer les jeux de stratégie comme "Civilization VI" pour garder l’esprit analytique, ainsi que les titres d’action courte comme "Super Mario Odyssey" qui offrent une pause ludique sans perturber le planning strict de la station.</p>
+
+      <h2>Impact sur la performance et la cohésion d’équipage</h2>
+      <p>Des études internes de l’ESA montrent que les équipes qui partagent des sessions de jeu enregistrent une meilleure communication et une réduction de 15 % des conflits mineurs. Le gaming devient donc un catalyseur de performance collective, tout en restant une activité récréative.</p>
+
+      <h2>Conclusion</h2>
+      <p>En combinant plaisir, entraînement cognitif et renforcement d’équipe, le gaming en microgravité s’affirme comme un atout stratégique pour les missions spatiales futures, et Thomas Pesquet en est le meilleur ambassadeur.</p>
+
+      <div class="share-buttons">
+        <a href="https://wa.me/?text=Thomas%20Pesquet%20et%20le%20gaming%20en%20microgravit%C3%A9%20%3A%20quand%20le%20jeu%20booste%20la%20vie%20%C3%A0%20bord%20-%20https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Fthomas-pesquet-et-le-gaming-en-microgravite-quand-le-jeu-boo.html" class="share-whatsapp" target="_blank">WhatsApp</a><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Fthomas-pesquet-et-le-gaming-en-microgravite-quand-le-jeu-boo.html" class="share-facebook" target="_blank">Facebook</a><a href="https://twitter.com/intent/tweet?text=Thomas%20Pesquet%20et%20le%20gaming%20en%20microgravit%C3%A9%20%3A%20quand%20le%20jeu%20booste%20la%20vie%20%C3%A0%20bord&url=https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Fthomas-pesquet-et-le-gaming-en-microgravite-quand-le-jeu-boo.html" class="share-x" target="_blank">X</a>
+      </div>
+
+      </div>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2026 Mon Site Tech & Gaming</p>
+  </footer>
+  <script>
+    (function() {
+      const saved = localStorage.getItem('theme');
+      if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    })();
+    function toggleTheme() {
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      if (isDark) {
+        document.documentElement.removeAttribute('data-theme');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    }
+  </script>
+</body>
+</html>

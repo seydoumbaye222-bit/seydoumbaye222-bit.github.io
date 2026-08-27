@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thomas Pesquet, de l'apesanteur à l'inspiration des jeux spatiaux</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <img src="../images/logo.png" alt="Logo" class="site-logo">
+    <h1>Thomas Pesquet, de l'apesanteur à l'inspiration des jeux spatiaux</h1>
+    <p><a href="../index.html">&larr; Retour à l'accueil</a></p>
+    <button class="theme-toggle" onclick="toggleTheme()">🌙 Mode sombre</button>
+  </header>
+  <main>
+    <article>
+      <div class="article-content">
+        <img src="https://images.unsplash.com/photo-1580327344181-c1163234e5a0?w=600" alt="Jeu open world" style="border-radius: 8px; margin-bottom: 15px; width: 100%;">
+
+        <p>Thomas Pesquet, cosmonaute français, a effectué deux séjours à bord de la Station spatiale internationale (ISS) en 2016‑2017 et en 2021‑2022. Son témoignage détaillé sur la vie en apesanteur devient une source d’inspiration pour les studios de jeu qui souhaitent rendre leurs univers spatiaux plus crédibles.</p>
+
+      <h2>Le vécu en apesanteur : un référentiel inédit pour les développeurs</h2>
+      <p>Lors de ses missions, Pesquet a décrit la perte de repères, les déplacements flottants et les contraintes physiques liées à l’absence de gravité. Ces observations offrent aux concepteurs de jeux une base scientifique rare, bien loin des approximations classiques basées sur la science-fiction.</p>
+
+      <h2>Des mécaniques de mouvement réalistes inspirées des observations de Pesquet</h2>
+      <p>Les rapports de Pesquet sur la façon dont le corps réagit aux impulsions, aux poussées de jets et aux rotations ont conduit plusieurs studios à ajuster leurs moteurs physiques, introduisant des inerties plus fidèles et des effets de gyroscope qui augmentent l’immersion du joueur.</p>
+
+      <h2>Narration immersive : l'authenticité au cœur du storytelling spatial</h2>
+      <p>En s’appuyant sur les anecdotes de la vie quotidienne à bord de l’ISS – repas en sachet, entretien des panneaux solaires, vues de la Terre – les scénaristes créent des scénarios qui résonnent avec le public, rendant chaque mission virtuelle plus émotionnelle et crédible.</p>
+
+      <h2>Impacts sur le game design pédagogique et la monétisation</h2>
+      <p>Les jeux éducatifs utilisent désormais les expériences de Pesquet pour enseigner la physique du vol spatial et la coopération internationale. Cette authenticité attire davantage d’utilisateurs, améliorant le taux de rétention et les revenus publicitaires sur des plateformes comme Google AdSense.</p>
+
+      <h2>Conclusion</h2>
+      <p>L’expérience en apesanteur de Thomas Pesquet ne se limite pas à la conquête du ciel ; elle façonne aujourd’hui la manière dont les développeurs imaginent et programment les mondes spatiaux, offrant aux joueurs des expériences à la fois ludiques et scientifiquement fondées.</p>
+
+      <div class="share-buttons">
+        <a href="https://wa.me/?text=Thomas%20Pesquet%2C%20de%20l'apesanteur%20%C3%A0%20l'inspiration%20des%20jeux%20spatiaux%20-%20https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Fthomas-pesquet-de-lapesanteur-a-linspiration-des-jeux-spatia.html" class="share-whatsapp" target="_blank">WhatsApp</a><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Fthomas-pesquet-de-lapesanteur-a-linspiration-des-jeux-spatia.html" class="share-facebook" target="_blank">Facebook</a><a href="https://twitter.com/intent/tweet?text=Thomas%20Pesquet%2C%20de%20l'apesanteur%20%C3%A0%20l'inspiration%20des%20jeux%20spatiaux&url=https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Fthomas-pesquet-de-lapesanteur-a-linspiration-des-jeux-spatia.html" class="share-x" target="_blank">X</a>
+      </div>
+
+      </div>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2026 Mon Site Tech & Gaming</p>
+  </footer>
+  <script>
+    (function() {
+      const saved = localStorage.getItem('theme');
+      if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    })();
+    function toggleTheme() {
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      if (isDark) {
+        document.documentElement.removeAttribute('data-theme');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    }
+  </script>
+</body>
+</html>

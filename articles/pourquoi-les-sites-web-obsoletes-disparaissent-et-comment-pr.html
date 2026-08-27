@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pourquoi les sites web obsolètes disparaissent et comment protéger le vôtre</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <img src="../images/logo.png" alt="Logo" class="site-logo">
+    <h1>Pourquoi les sites web obsolètes disparaissent et comment protéger le vôtre</h1>
+    <p><a href="../index.html">&larr; Retour à l'accueil</a></p>
+    <button class="theme-toggle" onclick="toggleTheme()">🌙 Mode sombre</button>
+  </header>
+  <main>
+    <article>
+      <div class="article-content">
+        <img src="https://images.unsplash.com/photo-1580327344181-c1163234e5a0?w=600" alt="Jeu open world" style="border-radius: 8px; margin-bottom: 15px; width: 100%;">
+
+        <p>Dans un univers numérique en constante évolution, les sites web qui ne s’adaptent pas aux nouveaux standards technologiques voient leur visibilité, leurs performances et leur sécurité se détériorer, ce qui conduit souvent à leur disparition progressive ou à leur retrait des moteurs de recherche.</p>
+
+      <h2>Évolution des standards web</h2>
+      <p>Les navigateurs, les protocoles et les langages de programmation évoluent rapidement : HTML5, CSS3, TLS 1.3 ou encore les exigences de performance de Core Web Vitals imposées par Google. Un site resté bloqué sur des versions anciennes ne bénéficie plus des optimisations de rendu, ce qui le rend lent et incompatibles avec les appareils modernes.</p>
+
+      <h2>Impact sur le référencement et le trafic</h2>
+      <p>Google privilégie les sites sécurisés (HTTPS), rapides et mobiles‑first. Un site obsolète voit son classement chuter, son taux de clics diminuer et son trafic organique s’effriter, ce qui affecte directement les revenus publicitaires et la notoriété.</p>
+
+      <h2>Risques de sécurité liés à l’obsolescence</h2>
+      <p>Les versions désuètes de CMS, de plugins ou de bibliothèques contiennent des vulnérabilités connues et exploitées par les cybercriminels. Une faille non corrigée peut entraîner le piratage, la perte de données ou l’injection de malware, pénalisant à la fois l’exploitant et les visiteurs.</p>
+
+      <h2>Bonnes pratiques pour maintenir son site à jour</h2>
+      <p>Adopter une veille technologique régulière, mettre à jour le CMS, les thèmes et les extensions dès la sortie des correctifs, optimiser les assets (images, scripts) et vérifier la conformité aux critères SEO de Google garantissent la pérennité du site et renforcent la confiance des utilisateurs.</p>
+
+      <h2>Conclusion</h2>
+      <p>En résumé, l’obsolescence d’un site web est un facteur de perte de trafic, de visibilité et de sécurité. En suivant les standards modernes, en appliquant les mises à jour dès qu’elles sont disponibles et en optimisant continuellement les performances, les propriétaires de sites peuvent protéger leur présence en ligne et préserver leurs revenus issus d’AdSense.</p>
+
+      <div class="share-buttons">
+        <a href="https://wa.me/?text=Pourquoi%20les%20sites%20web%20obsol%C3%A8tes%20disparaissent%20et%20comment%20prot%C3%A9ger%20le%20v%C3%B4tre%20-%20https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Fpourquoi-les-sites-web-obsoletes-disparaissent-et-comment-pr.html" class="share-whatsapp" target="_blank">WhatsApp</a><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Fpourquoi-les-sites-web-obsoletes-disparaissent-et-comment-pr.html" class="share-facebook" target="_blank">Facebook</a><a href="https://twitter.com/intent/tweet?text=Pourquoi%20les%20sites%20web%20obsol%C3%A8tes%20disparaissent%20et%20comment%20prot%C3%A9ger%20le%20v%C3%B4tre&url=https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Fpourquoi-les-sites-web-obsoletes-disparaissent-et-comment-pr.html" class="share-x" target="_blank">X</a>
+      </div>
+
+      </div>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2026 Mon Site Tech & Gaming</p>
+  </footer>
+  <script>
+    (function() {
+      const saved = localStorage.getItem('theme');
+      if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    })();
+    function toggleTheme() {
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      if (isDark) {
+        document.documentElement.removeAttribute('data-theme');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    }
+  </script>
+</body>
+</html>

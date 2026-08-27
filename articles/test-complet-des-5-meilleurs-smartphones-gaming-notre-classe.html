@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test complet des 5 meilleurs smartphones gaming : notre classement après 50 essais</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <img src="../images/logo.png" alt="Logo" class="site-logo">
+    <h1>Test complet des 5 meilleurs smartphones gaming : notre classement après 50 essais</h1>
+    <p><a href="../index.html">&larr; Retour à l'accueil</a></p>
+    <button class="theme-toggle" onclick="toggleTheme()">🌙 Mode sombre</button>
+  </header>
+  <main>
+    <article>
+      <div class="article-content">
+        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=600" alt="Technologie circuits" style="border-radius: 8px; margin-bottom: 15px; width: 100%;">
+
+        <p>Après avoir mis à l’épreuve 50 smartphones dédiés aux jeux vidéo, nous présentons ici notre classement des cinq modèles qui se démarquent le plus en termes de performances, d’autonomie et d’expérience utilisateur.</p>
+
+      <h2>Asus ROG Phone 7 – puissance et rafraîchissement</h2>
+      <p>Le ROG Phone 7 d’Asus se distingue par son processeur Snapdragon 8 Gen 2, un écran AMOLED de 6,78 pouces à 144 Hz et un système de refroidissement avancé qui maintient le CPU sous les 85 °C même pendant les sessions de jeu les plus longues.</p>
+
+      <h2>Xiaomi Black Shark 6 Pro – performance à bon prix</h2>
+      <p>Le Black Shark 6 Pro combine le même chipset que le ROG Phone 7 avec un prix plus abordable, un écran OLED de 6,67 pouces à 144 Hz et des déclencheurs magnétiques réactifs, offrant un excellent rapport qualité‑prix pour les joueurs exigeants.</p>
+
+      <h2>Lenovo Legion Phone Duel 2 – design orienté gamer</h2>
+      <p>Le Duel 2 mise sur un design asymétrique avec deux ports USB‑C, un écran de 6,92 pouces à 144 Hz et une batterie de 5500 mAh qui assure plus de 10 heures de jeu continu grâce à la technologie Vapor‑Cool 2 Zero.</p>
+
+      <h2>Nubia RedMagic 8 – écran ultra‑rapide</h2>
+      <p>Le RedMagic 8 propose le taux de rafraîchissement le plus élevé du marché, 165 Hz, sur un panneau AMOLED de 6,8 pouces, ainsi qu’un ventilateur intégré et un refroidissement liquide qui permettent de garder les performances stables sous forte charge.</p>
+
+      <h2>Sony Xperia 5 IV – équilibre gaming et multimédia</h2>
+      <p>Le Xperia 5 IV mise sur la fluidité du système grâce à son processeur Snapdragon 8 Gen 2, un écran OLED 120 Hz et une interface logicielle épurée, offrant une expérience de jeu solide sans sacrifier la qualité photo et vidéo.</p>
+
+      <h2>Conclusion</h2>
+      <p>En résumé, le Asus ROG Phone 7 occupe la première place grâce à son équilibre optimal entre puissance brute, rafraîchissement et gestion thermique, suivi de près par le Xiaomi Black Shark 6 Pro pour son excellent rapport qualité‑prix, tandis que le Lenovo Legion Phone Duel 2, le Nubia RedMagic 8 et le Sony Xperia 5 IV complètent un top‑5 diversifié qui répond aux attentes des gamers mobiles les plus exigeants.</p>
+
+      <div class="share-buttons">
+        <a href="https://wa.me/?text=Test%20complet%20des%205%20meilleurs%20smartphones%20gaming%20%3A%20notre%20classement%20apr%C3%A8s%2050%20essais%20-%20https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Ftest-complet-des-5-meilleurs-smartphones-gaming-notre-classe.html" class="share-whatsapp" target="_blank">WhatsApp</a><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Ftest-complet-des-5-meilleurs-smartphones-gaming-notre-classe.html" class="share-facebook" target="_blank">Facebook</a><a href="https://twitter.com/intent/tweet?text=Test%20complet%20des%205%20meilleurs%20smartphones%20gaming%20%3A%20notre%20classement%20apr%C3%A8s%2050%20essais&url=https%3A%2F%2Fseydoumbaye222-bit.github.io%2Farticles%2Ftest-complet-des-5-meilleurs-smartphones-gaming-notre-classe.html" class="share-x" target="_blank">X</a>
+      </div>
+
+      </div>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2026 Mon Site Tech & Gaming</p>
+  </footer>
+  <script>
+    (function() {
+      const saved = localStorage.getItem('theme');
+      if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    })();
+    function toggleTheme() {
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      if (isDark) {
+        document.documentElement.removeAttribute('data-theme');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    }
+  </script>
+</body>
+</html>
